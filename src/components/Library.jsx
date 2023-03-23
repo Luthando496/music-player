@@ -2,7 +2,7 @@ import React from 'react'
 import LibrarySong from './LibrarySong'
 
 const Library = ({songs,setSongs,setCurrent,audioRef,isPlaying,libraryStatus}) => {
-  console.log(libraryStatus)
+  // console.log(libraryStatus)
   // ${libraryStatus ? 'translate-x-0 opacity-100':''}
   return (
     <div className={`bg-white shadow-xl shadow-red-700 fixed top-0 opacity-0 left-0 w-[20rem] h-full overflow-scroll translate-x-[-100%]   duration-500 ${libraryStatus ?'translate-x-[0%] opacity-100':''}`}>

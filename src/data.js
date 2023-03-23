@@ -56,6 +56,33 @@ const ChillHop=()=>{
             color:['#205950','#2ab3bf','#ddff'],
             active:false,
         },
+        {
+            name:"Fully In",
+            artist:"AKA Forbes",
+            cover:"https://s3.amazonaws.com/yomzansi.com/wp-content/uploads/2018/05/08200228/aka-touch-my-blood-album-zip-yomzansi-12.jpg",
+            audio:'./music/02 Fully In.mp3',
+            id:uuidv4(),
+            color:['#205950','#2ab3bf','#ddff'],
+            active:false,
+        },
+        {
+            name:"Fela In Versace ",
+            artist:"AKA Forbes",
+            cover:"https://s3.amazonaws.com/yomzansi.com/wp-content/uploads/2018/05/08200228/aka-touch-my-blood-album-zip-yomzansi-12.jpg",
+            audio:'./music/09 Fela In Versace (feat_ Kiddominant).mp3',
+            id:uuidv4(),
+            color:['#205950','#2ab3bf','#ddff'],
+            active:false,
+        },
+        {
+            name:"StarSigns",
+            artist:"AKA Forbes",
+            cover:"https://s3.amazonaws.com/yomzansi.com/wp-content/uploads/2018/05/08200228/aka-touch-my-blood-album-zip-yomzansi-12.jpg",
+            audio:'./music/14 StarSigns (feat_ Stogie T).mp3',
+            id:uuidv4(),
+            color:['#205950','#2ab3bf','#ddff'],
+            active:false,
+        },
     ]
 }
 

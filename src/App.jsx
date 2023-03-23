@@ -38,7 +38,7 @@ function App() {
 
 
   return (
-    <div className="bg-black h-screen">
+    <div className=" h-screen">
       <Nav libraryStatus={libraryStatus} setLibrary={setLibrary} />
       <Song currentSong={current} />
       <Player setSongs={setSongs} setCurrent={setCurrent} songs={songs} audioRef={audioRef} songInfo={songInfo} setInfo={setInfo} isPlaying={isPlaying} setIsPlay={setIsPlay} currentSong={current} />
